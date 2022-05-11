@@ -618,8 +618,8 @@ a[data-lightbox]:hover img {
     z-index: 1;
     opacity: 0.4;
 }
-.prestation:not(:first-of-type) {
-    margin-top: 50px;
+.prestation{
+    margin-top: 20px;
 }
 .prestation i {
     font-size: 6rem;
@@ -683,6 +683,10 @@ a {
 
 p {
     font-size: 18px;
+}
+q{
+    font-size: 18px;
+    font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -851,6 +855,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -906,9 +911,13 @@ h4 {
     h5,
     h6,
     p,
+    q,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    .prestation:not(:first-of-type) {
+    margin-top: 50px;
     }
     .b-parallax {
         background-attachment: scroll;
